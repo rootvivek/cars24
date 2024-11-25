@@ -6,7 +6,7 @@ const Colors = () => {
       <h5>✦ Progress Stepper Component Specifications ✦</h5>
       <ul>
         <li>
-          <h5 className='title-1'>Overview</h5>
+          <h5 className="title">Overview</h5>
           <ul>
             <li>The Progress Stepper component is designed to visually indicate progress through a series of steps.</li>
             <li>This component is static, meaning it does not support user interactions, and is suitable for cases where two or more steps are required.</li>
@@ -14,7 +14,7 @@ const Colors = () => {
         </li>
 
         <li>
-          <h5 className='title-1'>Orientations</h5>
+          <h5 className="title">Orientations</h5>
           <ul>
             <li><h5>Horizontal</h5>Steps are laid out in a row from left to right.</li>
             <li><h5>Vertical</h5>Steps are stacked in a column from top to bottom.</li>
@@ -22,7 +22,7 @@ const Colors = () => {
         </li>
 
         <li>
-          <h5 className='title-1'>Content Flexibility</h5>
+          <h5 className="title">Content Flexibility</h5>
           <ul>
             <li><h5>Header Text</h5>: An optional title for each step.</li>
             <li><h5>Body Text</h5>: An optional description for each step.</li>
@@ -30,7 +30,7 @@ const Colors = () => {
         </li>
 
         <li>
-          <h5 className='title-1'>Status Variants</h5>
+          <h5 className="title">Status Variants</h5>
           <ul>
             <li>The Progress Stepper supports three types of status variants for each step:</li>
             <li>
@@ -41,7 +41,7 @@ const Colors = () => {
               </ul>
             </li>
             <li>
-              <h5 className='title-1'>Icon Type</h5>
+              <h5 className="title">Icon Type</h5>
               <ul>
                 <li>Description: Displays an icon representing the status.</li>
                 <li>Container Size: 24x24 px.</li>
@@ -49,7 +49,7 @@ const Colors = () => {
               </ul>
             </li>
             <li>
-              <h5 className='title-1'>Image Type</h5>
+              <h5 className="title">Image Type</h5>
               <ul>
                 <li>Description: Displays an image representing the step.</li>
                 <li>Container Size: 32x32 px.</li>
@@ -60,13 +60,13 @@ const Colors = () => {
           </ul>
         </li>
         <li>
-          <h5 className='title-1'>Usage Restrictions</h5>
+          <h5 className="title">Usage Restrictions</h5>
           <ul>
             <li>The Progress Stepper component must be used with two or more steps. It does not support a single step scenario.</li>
           </ul>
         </li>
         <li>
-          <h5 className='title-1'>Design Specifications</h5>
+          <h5 className="title">Design Specifications</h5>
           <ul>
             <li><h5>Size & Spacing</h5>:
               <ul>
@@ -81,7 +81,7 @@ const Colors = () => {
                 <li>Body Text: Should follow the body text style guidelines.</li>
               </ul>
             </li>
-            <li><h5 className='title-1'>Color & Themes</h5>:
+            <li><h5 className="title">Color & Themes</h5>:
               <ul>
                 <li>Status Colors: Define colors for each status type (e.g., Ongoing, Started, Completed) for both icons and text.</li>
                 <li>Variant Colors: Ensure that colors for icons and images are adaptable to different themes.</li>
@@ -90,7 +90,7 @@ const Colors = () => {
           </ul>
         </li>
         <li>
-          <h5 className='title-1'>Usage Guidelines</h5>
+          <h5 className="title-1">Usage Guidelines</h5>
           <ul>
             <li>Use when displaying a process with two or more steps.</li>
             <li>Do not use for single-step processes.</li>

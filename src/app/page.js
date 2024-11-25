@@ -9,7 +9,7 @@ import Home from './components/Home';
 import Settings from './components/Settings';
 import Profile from './components/Profile';
 import Messages from './components/Message';
-import Footer from './components/footer';
+//import Footer from './components/footer';
   
 
 function App() {

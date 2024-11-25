@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import "./Footer.css";
+// import "./Footer.css";
 
 const Footer = () => {
   return (
